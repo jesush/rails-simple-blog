@@ -1,6 +1,6 @@
 require "bundler/capistrano"
 
-server "209.141.62.128", :web, :app, :db, primary: true
+server "ifritsalsa.com", :web, :app, :db, primary: true
 
 set :application, "rails-simple-blog"
 set :user, "deployer"
