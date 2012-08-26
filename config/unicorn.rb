@@ -1,4 +1,4 @@
-root = "/home/deployer/apps/blog/current"
+root = "/home/deployer/apps/rails-simple-blog/current"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
